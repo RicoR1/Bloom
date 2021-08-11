@@ -1,0 +1,62 @@
+/* Flexbox */
+
+:root {
+    --prim: #f4f4f6;
+    --sec: #26292e;
+    --ter: #e7718b;
+    --bgColor: #f4f4f6;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    background-color: var(--bgColor);
+}
+
+.header {
+    background-color: var(--sec);
+    height: 100px;
+    color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+
+.header .inner {
+    display: inline-flex;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.top-nav ul li {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.section1 {
+    background-color: var(--ter);
+    height: 400px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.block1 {
+    display: block;
+    width: 30%;
+}
+
+.button {
+    text-transform: capitalize;
+    margin: 8px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: var(--sec);
+}
+
+.section2 .inner {
+    display: inline-flex;
+    display: block;
+    width: 30%;
+    justify-content: space-between;
+}
